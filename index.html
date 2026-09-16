@@ -1,620 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="icon" type="image/png" href="./assets/img/icon.png" />
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Partha Roy || Personal Portfolio</title>
-    <meta content="Partha Roy" name="Partha Roy|| Android Developer">
-    <meta content="Partha Roy" name="Partharoypc">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partha Roy — Software Engineer | Android & Full-Stack Web</title>
+  <meta name="description" content="Partha Roy (partharoypc) — Android Engineer, Data Matrix Lab. Play Store apps, on-device AI, Bangla products, network tools." />
+  <meta name="author" content="Partha Roy" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Partha Roy — Software Engineer | Android & Full-Stack Web" />
+  <meta property="og:description" content="Selected Play Store apps. Android, on-device AI, Bangla products, network tools." />
+  <meta property="og:image" content="https://partharoypc.github.io/assets/img/icon.png" />
+  <meta property="og:url" content="https://partharoypc.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://partharoypc.github.io/" />
+  <link rel="icon" type="image/png" href="./assets/img/icon.png" />
+  <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}.menu-btn{display:none!important}</style></noscript>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Partha Roy","alternateName":"partharoypc","jobTitle":"Software Engineer, Founder, Data Matrix Lab","affiliation":[{"@type":"Organization","name":"Data Matrix Lab"},{"@type":"Organization","name":"Sikder International IT Hub"}],"alumniOf":{"@type":"CollegeOrUniversity","name":"North Western University, Khulna"},"address":{"@type":"PostalAddress","addressLocality":"Khulna","addressCountry":"BD"},"email":"mailto:partharoypc@gmail.com","url":"https://partharoypc.github.io/","sameAs":["https://github.com/partharoypc","https://www.linkedin.com/in/partharoypc/","https://twitter.com/Partharoypc","https://play.google.com/store/apps/dev?id=8108071590254123611","http://datamatrixlab.com/"]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ItemList","name":"Selected apps by Partha Roy","itemListElement":[{"@type":"ListItem","position":1,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.savebox","name":"SaveBox: Video & Status Saver"},{"@type":"ListItem","position":2,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.promptera.ai.photo","name":"Promptera: AI Photo Prompts"},{"@type":"ListItem","position":3,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.fitbyte","name":"FitByte: AI Food Scanner"},{"@type":"ListItem","position":4,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.networkanalyzer","name":"Network Analyzer: WiFi Scanner"},{"@type":"ListItem","position":5,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.boichai.books","name":"Boichai: Bangla Books"},{"@type":"ListItem","position":6,"url":"https://bookbharat.com/","name":"BookBharat E-commerce Platform"}]}
+  </script>
 </head>
-
 <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="header-tops">
+  <a class="skip" href="#about">Skip to content</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
 
-        <div class="container">
+  <header class="site-header" id="top">
+    <div class="container wide header-inner">
+      <a href="#top" class="brand" aria-label="Partha Roy home">
+        <img src="assets/img/icon.png" alt="Partha Roy" width="34" height="34" />
+        <span class="brand-text">Partha Roy<small>Android · Play Store · AI</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#apps">Apps</a>
+        <a href="#research">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-small btn-accent nav-cta" href="https://drive.google.com/file/d/1cnhqhJidFfMTqQ-1hDRQKdXSkF2huql_/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-small btn-accent hide-mobile" href="https://drive.google.com/file/d/1cnhqhJidFfMTqQ-1hDRQKdXSkF2huql_/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+      </div>
+    </div>
+  </header>
 
-            <h1><a href="index.html">Partha Roy</a></h1>
-            <h2 style="color:#fff">I am <span class="typing" style="color:#12D640"></span></h2>
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li class="active">
-                        <a href="#header"> <span>Home</span></a>
-                    </li>
-                    <li><a href="#about"><span>About</span></a></li>
-                    <li>
-                        <a href="#education"> <span>Education</span></a>
-                    </li>
-                    <li>
-                        <a href="#experience"> <span>Experience</span></a>
-                    </li>
-                    <li>
-                        <a href="#portfolio"> <span>Projects</span></a>
-                    </li>
-                    <li>
-                        <a href="#skills"> <span>Skills</span></a>
-                    </li>
-                    <li>
-                        <a href="#links" target="_blank"> <span>Resume</span></a>
-                    </li>
-                    <li>
-                        <a href="#contacts"> <span>Contact</span></a>
-                    </li>
-
-                </ul>
-            </nav>
-            <!-- .nav-menu -->
-
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/partharoypc/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/partharoypc" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                <a href="mailto:partharoypc@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-            </div>
-
-        </div>
-    </header>
-    <!-- End Header -->
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-
-        <!-- ======= About Me ======= -->
-        <div class="about-me container">
-
-            <div class="section-title">
-                <h2>About</h2>
-            </div>
-            <h2><a href="https://drive.google.com/file/d/1cnhqhJidFfMTqQ-1hDRQKdXSkF2huql_/view?usp=sharing" target="_blank" style="text-align: left; color:#12d640; padding: 5px 10px;">Partha Roy</a><br></h2>
-
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="assets/img/icon.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    <p>
-                        I am Looking forward to an opportunity for working in a dynamic, challenging environment, where I can utilize my skills for developing my career and for the growth of the organization. I am a simple person who is very interested in technology. <br><br>                        I took up Computer Science and Engineering as my discipline at North Western University, Khulna. My undergraduate education has been a great learning and enriching process for me. It exposed me to all the core areas of Computer
-                        Science like Mathematics, operating systems, database management systems, network security, data structures, algorithms, and software engineering. These courses have given me a good foundation in the core concepts. I am fully acquainted
-                        with fast-growing subjects like Object-Oriented Programming, Analysis, and Design. On the other hand, the intensive laboratory classes exposed me to a fascinating world of experimentation. It was here that I discovered the qualities
-                        of perseverance and diligence in myself. I feel that these courses have done a lot to prepare me for my future studies and research work.
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul>
-                                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 5 June 1996</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +8801760805545 </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul>
-                                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Khulna, Bangladesh</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> Partharoypc@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End About Me -->
-        <!-- ======= Interests ======= -->
-        <div class="interests container">
-
-            <div class="section-title">
-                <h2>Interests</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <div class="icon-box">
-                        <i class="ri-android-line" style="color: #ffbb2c;"></i>
-                        <h3>App Development</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="ri-window-line" style="color: #5578ff;"></i>
-                        <h3>Website Design</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-                        <h3>Software Engineering</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="ri-base-station-line" style="color: #ffc107;"></i>
-                        <h3>Internet of Things</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-camera-3-line" style="color: #e80368;"></i>
-                        <h3>Computer Vision</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4 ">
-                    <div class="icon-box">
-                        <i class="ri-english-input" style="color: #1c7d32;"></i>
-                        <h3>Artificial Intelligenceg</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-                        <h3>Visualization</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-                        <h3>Algorithms</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-image-line" style="color: #ffc107;"></i>
-                        <h3>Image Processing</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-cloud-line" style="color: #ffc107;"></i>
-                        <h3>Cloud Computing</h3>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- End Interests -->
-    </section>
-    <!-- End About Section -->
-    <!-- ======= Education Section ======= -->
-    <section id="education" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Education</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-                        <h4 style="text-align:left;"><a href="https://nwu.edu.bd/" target="_blank" style="text-align: left; color:#12d640; padding: 5px 10px;">North Western University, Khulna</a><br> </h4>
-                        <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>BSc in Computer Science and Engineering</em></p>
-                        <h5 style="text-align:left;padding: 0px 10px;">2016 - 2021, CGPA 3.29 Out of 4.00</h5>
-                        <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Curriculum :</h6>
-                        <ul style="text-align:left;color:#fff;">
-                            <li>Software Engineering,</li>
-                            <li>Use of machine tools</li>
-                            <li>Computer Basic and Programming</li>
-                            <li>Object Oriented Programming</li>
-                            <li>Courses: Robotics and Computer Vision</li>
-                            <li>Artificial Intelligence and Expert System</li>
-                            <li>Digital Logic Design and Data Structures</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-                        <h4 style="text-align:left;">
-                            <a href="http://kpcbd.edu.bd/" target="_blank" style="text-align: left; color:#12d640; padding: 5px 10px;">Khulna Public College</a><br>
-                        </h4>
-                        <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>Higher Secondary Certificate</em></p>
-                        <h5 style="text-align:left;padding: 0px 10px;">2012 - 2014, GPA 4.70 Out Of 5.00</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-                        <h4 style="text-align:left;"><a href="#" target="_blank" style="text-align: left; color:#12d640; padding: 5px 10px;">Chaderhat High School</a><br> </h4>
-                        <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>Secondary School Certificate</em></p>
-                        <h5 style="text-align:left;padding: 0px 10px;">2010 - 2012, GPA 4.88 Out Of 5.00</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- <div class="portfolio">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Certificate Training</h2>
-                </div>
-                <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/cisco.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Cisco Network</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/18DjoQaJ6OodptZHMR2Z7e4WXYFqp1gNT/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/infinet.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Infinet Network Wireless</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/1Nh41_7H13du5BTJe46CyykNyLzuHvTJ_/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/K3 Listrik.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>K3 Listrik</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/1_T_AXFHwJ7Tmp4FIsjSdelm9rYpk-taz/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/POP.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Pengawas Operasional Pertama</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/145ypFqhEONyoxLX2kqKNDkFpAdwn2ZCP/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/wah.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Working at heights</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/1HnXAG5gRZjgYY7ot29tKFtgvAEu1OQYG/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/iot.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>IoT - Internet of Things</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/1ENXgVj4FWUbQJ7-pog4IFD1ign-NISqW/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/certification/qms.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Quality Control Circle for Leader</h4>
-                                <div class="portfolio-links">
-                                    <a href="https://drive.google.com/file/d/1fdU7TGxMNOog5GnpjS9NSE5-KpP-R9Jr/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-    </section>
-    <!-- End Education Section -->
-    <!-- Start Experience Section -->
-    <section id="experience" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Experience</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up">
-                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <h4 style="text-align:left;"><a style="color:#12d640">Sikder International IT Hub Private Limited</a><br> </h4>
-                        <h5 style="text-align:left;">01 August 2022 - Present</h5>
-                        <h6 style="text-align:left;color:#ff5600">Android App Developer <br></h6>
-                        <p style="text-align:left;color:#fff">Babanpur, Benegal Enamel, West Bengal India<br></p>
-                        <ul style="text-align:left;">
-                            <li>Design, build, and maintain high performance, reusable, and reliable Java code.</li>
-                            <li>Help maintain code quality, organization, and automatization</li>
-                            <li>Development & Implementation Application Management .</li>
-                            <li>Translate designs and wireframes into high quality code.</li>
-                            <li>Active in Innovation Program and Quality Management System.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-12" data-aos="fade-up">
-                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <h4 style="text-align:left;"><a style="color:#12d640">Codemen</a><br> </h4>
-                        <h5 style="text-align:left;">01 November 2021 - 30 July 2022</h5>
-                        <h6 style="text-align:left;color:#ff5600">Web Designer<br></h6>
-                        <p style="text-align:left;color:#fff">17 KDA Avenue, R Amin Tower, Khulna 9100, Bangladesh<br></p>
-                        <ul style="text-align:left;">
-                            <li>Proficiency in HTML, CSS, JavaScript, Tailwind css and Bootstrap</li>
-                            <li>Using markup languages like HTML to create user-friendly web pages.</li>
-                            <li>Maintaining and improving website.</li>
-                            <li>Optimizing applications for maximum speed and scalability.</li>
-                            <li>Design mobile-based features.</li>
-                            <li>Collaborate with back-end developers and web designers to improve usability.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Experience Section -->
-
-    <!-- Start Project Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Projects</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">Web-Design</li>
-                        <li data-filter=".android-project">Android-App</li>
-                        <li data-filter=".filter-project">IoT Project</li>
-                    </ul>
-                </div>
-            </div> -->
-
-            <div class="row portfolio-container">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <center>
-                        <h4>Cryptocurrency Website</h4>
-                    </center>
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/project/ikcoin.png" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-
-                            <div class="portfolio-links">
-                                <a href="projects/cryptocurrency.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <center>
-                        <h4>SOLO-Website</h4>
-                    </center>
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/project/solo.png" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-
-                            <div class="portfolio-links">
-                                <a href="projects/solo-website.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <center>
-                        <h4>Tic-Tac-Toe-Game</h4>
-                    </center>
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/project/tic-tac.png" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-
-                            <div class="portfolio-links">
-                                <a href="projects/tic-tac.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item android-project">
-                    <center>
-                        <h4>Android Music Player App</h4>
-                    </center>
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-
-                            <div class="portfolio-links">
-                                <a href="projects/music-player.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-                    <center>
-                        <h4>IoT Project</h4>
-                    </center>
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/project/iot.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-
-                            <div class="portfolio-links">
-                                <a href="projects/iot.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <img class="hero-avatar" src="assets/img/icon.png" alt="Portrait of Partha Roy" width="264" height="264" fetchpriority="high" />
+      <h1>Partha Roy</h1>
+      <p class="hero-role">Android Engineer · Full Stack Web Developer · Founder, Data Matrix Lab</p>
+      <p class="hero-org">Published on Google Play · BSc CSE, NWU Khulna · Sikder International IT Hub</p>
+      <p class="hero-contact"><a href="mailto:partharoypc@gmail.com">partharoypc@gmail.com</a> · <a href="tel:+8801760805545">+880 1760-805545</a> · Khulna, Bangladesh</p>
+      <div class="hero-cta">
+        <a class="btn btn-accent" href="#apps">Selected Apps</a>
+        <a class="btn btn-ghost" href="#research">Technical Projects →</a>
+      </div>
+      <div class="socials" aria-label="Social links">
+        <a href="mailto:partharoypc@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+        <a href="https://github.com/partharoypc" target="_blank" rel="me noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.15c0 .3.2.67.8.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg></a>
+        <a href="https://www.linkedin.com/in/partharoypc/" target="_blank" rel="me noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+        <a href="https://play.google.com/store/apps/dev?id=8108071590254123611" target="_blank" rel="noopener" aria-label="Google Play"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4 3.5v17l9.5-8.5L4 3.5zm11.2 7.3 2.9 1.2-2.9 1.2-1.7-1.2 1.7-1.2zM6.5 2.6l10.7 6.1 2.3-1.3c.6-.3.6-1.1 0-1.4L7.7 1.6c-.5-.3-1.2 0-1.2.5v.5zm0 18.8v.5c0 .5.7.8 1.2.5l11.8-4.4c.6-.3.6-1.1 0-1.4l-2.3-1.3-10.7 6.1z"/></svg></a>
+      </div>
+      <p class="typing-wrap"><span class="pill"><span class="pulse"></span> Open for work · I build <span class="typing" id="typing">Android Apps</span><span class="caret"></span></span></p>
     </section>
 
-    <!-- End Project Section -->
-    <!-- Start Skills Section -->
-
-    <section id="skills" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Skills</h2>
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">About Me</p>
+        <h2>Software Engineer who ships real products</h2>
+      </div>
+      <div class="about-split">
+        <aside class="card about-profile reveal">
+          <img class="about-avatar" src="assets/img/icon.png" alt="Partha Roy" width="216" height="216" loading="lazy" />
+          <h3>Partha Roy</h3>
+          <p class="about-role">Software Engineer · Android &amp; Full-Stack Web</p>
+          <ul class="fact-list">
+            <li><b>Base</b><span>Khulna, Bangladesh</span></li>
+            <li><b>Degree</b><span>BSc in CSE, NWU Khulna</span></li>
+            <li><b>Now</b><span>Sikder International IT Hub</span></li>
+            <li><b>Ships</b><span><a href="https://play.google.com/store/apps/dev?id=8108071590254123611" target="_blank" rel="noopener">Google Play apps</a></span></li>
+            <li><b>Speaks</b><span>Bangla · English</span></li>
+          </ul>
+        </aside>
+        <div>
+          <div class="card reveal">
+            <p class="sub" style="margin-top:0">I'm <strong>Partha Roy</strong> — a Software Engineer and founder of <strong>Data Matrix Lab</strong>, <a href="https://play.google.com/store/apps/dev?id=8108071590254123611" target="_blank" rel="noopener">published on Google Play</a>. With a BSc in CSE and my current role at Sikder International IT Hub, I build Android apps and full-stack web products end to end — from clean architecture to release.</p>
+            <p class="sub" style="margin-bottom:0">I care about systems that are efficient, scalable and reliable, and about data-driven features that solve practical problems — from offline-first mobile apps to AI-assisted analytics. My future plan is to pursue an <strong>MSc</strong> to deepen my theoretical foundations and explore research.</p>
+            <div class="tag-cloud green">
+              <span>Java · Kotlin · MVVM</span><span>PHP (Laravel) · JavaScript</span><span>REST APIs · Room · Firebase</span><span>Python · Data Analytics</span>
             </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up">
-                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-                        <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                        <p style="text-align:left;">
-                            <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
-                            <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone" height="50" width="120">
-                            <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="60" width="90">
-                            <img src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" alt="" srcset="">
-                            <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
-
-                        </p>
-                    </div>
-                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-                        <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                        <p style="text-align:left;">
-                            <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone">
-                            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" alt="vectorlogo.zone" srcset="">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="upload.wikimedia.org" width="90" height="70">
-                        </p>
-                    </div>
-                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-                        <h4 style="text-align:left;color:#09203a">Tools</h4>
-                        <p style="text-align:left;">
-                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-                            <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="vectorlogo.zone">
-                        </p>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="stat-strip">
+            <div class="card stat reveal"><b>20<em>+</em></b><span>Android apps built</span></div>
+            <div class="card stat reveal"><b>50<em>+</em></b><span>Unit tests written</span></div>
+            <div class="card stat reveal"><b>4<em>+</em></b><span>Years experience</span></div>
+          </div>
         </div>
+      </div>
+      <div class="grid3">
+        <div class="card reveal"><h3>📱 Mobile Systems</h3><p class="muted-text small">20+ Android apps with MVVM + Repository patterns — Room offline-first, FCM engagement, App Open/Native ads.</p></div>
+        <div class="card reveal"><h3>🌐 Full-Stack Web</h3><p class="muted-text small">Responsive HTML5/CSS3/JS + Redux/PHP apps — Figma to pixel-perfect UI, 50+ unit tests, reusable components.</p></div>
+        <div class="card reveal"><h3>📊 AI &amp; Data</h3><p class="muted-text small">Diabetes prediction (Logistic Regression, SVM), COVID-19 analysis, Firebase Analytics — data into decisions.</p></div>
+      </div>
     </section>
 
-    <!-- End Skills Section -->
-    <!-- Start Links section -->
-    <section id="links" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Resume & Links</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <a href="https://drive.google.com/file/d/1cnhqhJidFfMTqQ-1hDRQKdXSkF2huql_/view?usp=sharing" target="_blank">
-                        <div class="icon"><i class="icofont-page"></i></div>
-                    </a>
-                    <h4 class="title"><a href="https://drive.google.com/file/d/1cnhqhJidFfMTqQ-1hDRQKdXSkF2huql_/view?usp=sharing" target="_blank">Resume</a></h4>
-                    <p class="description" style="color:#fff;">The link contains downloadable resume</p>
-                </div>
-            </div>
+    <!-- PUBLISHED APPS: the core evidence -->
+    <section id="apps" class="section container">
+      <div class="apps-head">
+        <div>
+          <p class="eyebrow">Evidence · Google Play</p>
+          <h2 style="margin-bottom:0">Selected Apps</h2>
+          <p class="sub">Developer account: <a href="https://play.google.com/store/apps/dev?id=8108071590254123611" target="_blank" rel="noopener"><strong>Data Matrix Lab</strong></a> — a curated set of shipped products, each solving a concrete problem.</p>
         </div>
-    </section>
-    <!--End Links Section -->
-    <!-- Start Contact Section -->
-
-    <section id="contacts" class="contact">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Contact</h2>
-            </div>
-
-            <div class="row mt-2">
-
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="info-box">
-                        <i class="bx bx-map"></i>
-                        <h3>My Address</h3>
-                        <p>Khulna</p>
-                        <p>Bangladesh</p>
-                        <p>1200</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-                    <div class="info-box">
-                        <i class="bx bx-share-alt"></i>
-                        <h3>Social Profiles</h3>
-                        <div class="social-links">
-                            <!-- <a href="https://www.facebook.com/Partharoypc" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a> -->
-                            <a href="https://www.linkedin.com/in/partharoypc/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                            <a href="https://www.github.com/Partharoypc" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                            <a href="mailto:Partharoypc@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mt-4 d-flex align-items-stretch">
-                    <div class="info-box">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email</h3>
-                        <p>Partharoypc@gmail.com</p>
-                        <p>Partharoy.nwu.gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 d-flex align-items-stretch">
-                    <div class="info-box">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Contact</h3>
-                        <p>+8801760805545</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Counter  -->
-            <div id="sfcn1825xx95zenyppafwxj1lg9lxdxzac2"></div>
-            <script type="text/javascript" src="https://counter4.optistats.ovh/private/counter.js?c=n1825xx95zenyppafwxj1lg9lxdxzac2&down=async" async></script>
-            <noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter4.optistats.ovh/private/freecounterstat.php?c=n1825xx95zenyppafwxj1lg9lxdxzac2" border="0" title="page counter" alt="page counter"></a></noscript>
-
-        </div>
+        <a class="btn btn-small btn-ghost catalog-link" href="https://play.google.com/store/apps/dev?id=8108071590254123611" target="_blank" rel="noopener">Full catalog →</a>
+      </div>
+      <div class="filters" role="tablist" aria-label="Filter apps">
+        <button class="f-btn active" data-filter="all" aria-pressed="true">All</button>
+        <button class="f-btn" data-filter="ai" aria-pressed="false">AI</button>
+        <button class="f-btn" data-filter="edu" aria-pressed="false">Education</button>
+        <button class="f-btn" data-filter="util" aria-pressed="false">Utility</button>
+        <button class="f-btn" data-filter="net" aria-pressed="false">Network</button>
+        <button class="f-btn" data-filter="web" aria-pressed="false">Web</button>
+      </div>
+      <div class="work-list" id="projGrid">
+        <article class="work card reveal proj featured" data-cat="util">
+          <span class="work-index">01</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/savebox.png" alt="SaveBox app icon" width="120" height="120" loading="lazy" /></div>
+          <div><span class="featured-badge">Flagship</span><h3>SaveBox: Video &amp; Status Saver</h3><p><strong>Problem:</strong> expensive mobile data and scattered status/video saving. <strong>Solution:</strong> HD downloader and story saver — private, secure and offline-first.</p><span class="venue">Google Play</span><span class="venue">Offline-first</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.datamatrixlab.savebox" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="ai">
+          <span class="work-index">02</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/promptera.png" alt="Promptera app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>Promptera: AI Photo Prompts</h3><p><strong>Problem:</strong> prompt engineering is hard on mobile. <strong>Solution:</strong> curated + generative photo prompts, tuned for on-device use.</p><span class="venue">Play · AI</span><span class="venue">Generative AI</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.datamatrixlab.promptera.ai.photo" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="ai">
+          <span class="work-index">03</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/fitbyte.png" alt="FitByte app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>FitByte: AI Food Scanner</h3><p><strong>Problem:</strong> nutrition tracking has too much friction. <strong>Solution:</strong> scan food for instant estimates with lightweight on-device vision.</p><span class="venue">Play · AI Health</span><span class="venue">Vision</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.datamatrixlab.fitbyte" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="net">
+          <span class="work-index">04</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/network.png" alt="Network Analyzer app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>Network Analyzer: WiFi Scanner</h3><p><strong>Problem:</strong> opaque home and public WiFi on low-resource networks. <strong>Solution:</strong> clear diagnostics and scanner in one tool.</p><span class="venue">Play · Networks</span><span class="venue">Measurement</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.datamatrixlab.networkanalyzer" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="edu">
+          <span class="work-index">05</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/boichai.png" alt="Boichai app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>Boichai: বইচাই Bangla Books</h3><p><strong>Problem:</strong> Bangla book discovery is fragmented. <strong>Solution:</strong> dedicated Bangla search and discovery experience.</p><span class="venue">Play · Bangla</span><span class="venue">IR &amp; NLP</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.datamatrixlab.boichai.books" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="web">
+          <span class="work-index">06</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/bookbharat.png" alt="Book Bharat app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>Book Bharat — Online Bookstore</h3><p><strong>Scope:</strong> 100+ RESTful APIs for inventory, product tracking and secure payments; multi-category browsing, COD and order tracking across India.</p><span class="venue">Play · Shopping</span><span class="venue">REST APIs</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.sikderithub.bookbharat" target="_blank" rel="noopener">Play Store →</a><a href="https://bookbharat.com/" target="_blank" rel="noopener">Website</a></div></div>
+        </article>
+        <article class="work card reveal proj" data-cat="edu">
+          <span class="work-index">07</span>
+          <div class="work-media app-icon"><img src="assets/img/apps/bright.png" alt="Bright Academy app icon" width="96" height="96" loading="lazy" /></div>
+          <div><h3>BrightAcademy Exam Preparation</h3><p><strong>Scope:</strong> end-to-end bilingual (Bengali + English) test-prep build — mock tests, video courses, Firebase Analytics and real-time notifications.</p><span class="venue">Play · Ed-tech</span><span class="venue">Firebase</span><div class="work-links"><a href="https://play.google.com/store/apps/details?id=com.sikderithub.brightacademy" target="_blank" rel="noopener">Play Store →</a></div></div>
+        </article>
+      </div>
     </section>
 
-    <!-- End Contact Section -->
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script type="text/javascript">
-        var typed = new Typed('.typing', {
-            strings: ["Coder", "Web Designer", "Android Developer", "Wordpress Developer", "Content Creator", "IoT Enthusiast", "AI Enthusiast"],
-            loop: true,
-            typeSpeed: 65,
-            backSpeed: 65
-        });
-    </script>
+    <!-- PROJECTS: problem-solving builds -->
+    <section id="research" class="section container">
+      <div class="apps-head">
+        <div>
+          <p class="eyebrow">Technical Projects</p>
+          <h2 style="margin-bottom:0">Problem-solving builds</h2>
+          <p class="sub">GitHub builds behind the Play work — practical, reproducible, documented.</p>
+        </div>
+        <a class="btn btn-small btn-ghost catalog-link" href="https://github.com/partharoypc?tab=repositories" target="_blank" rel="noopener">All repos →</a>
+      </div>
+      <div class="work-list">
+        <article class="work card reveal">
+          <span class="work-index">01</span>
+          <div class="work-media mono tint-blue">ML</div>
+          <div><h3>Diabetes Prediction with ML</h3><p><strong>Problem:</strong> early diabetes risk is easy to miss. <strong>Solution:</strong> Logistic Regression and SVM baselines on Kaggle symptom data, evaluated with sklearn metrics.</p><span class="venue">Open Source</span><span class="venue">Python</span><span class="venue">scikit-learn</span><div class="work-links"><a href="https://github.com/partharoypc/Diabetes-Prediction-Project-using-Machine-Learning" target="_blank" rel="noopener">GitHub →</a></div></div>
+        </article>
+        <article class="work card reveal">
+          <span class="work-index">02</span>
+          <div class="work-media mono tint-amber">CV</div>
+          <div><h3>COVID-19 Data Analysis</h3><p><strong>Problem:</strong> raw case counts mislead without context. <strong>Solution:</strong> time-series exploration and visualization that surface real trends.</p><span class="venue">Open Source</span><span class="venue">Data Analysis</span><span class="venue">Visualization</span><div class="work-links"><a href="https://github.com/partharoypc/COVID-19-Data-Analysis-Project" target="_blank" rel="noopener">GitHub →</a></div></div>
+        </article>
+        <article class="work card reveal">
+          <span class="work-index">03</span>
+          <div class="work-media mono">AD</div>
+          <div><h3>SmartAds &amp; AdGlide — Android Ad Libraries</h3><p><strong>Problem:</strong> ad SDKs leak lifecycles and bloat apps. <strong>Solution:</strong> lifecycle-safe wrappers for Banner, Interstitial, Rewarded, App Open and Native ads.</p><span class="venue">Open Source</span><span class="venue">Android</span><span class="venue">Java</span><div class="work-links"><a href="https://github.com/partharoypc/SmartAds" target="_blank" rel="noopener">SmartAds →</a><a href="https://github.com/partharoypc/AdGlide" target="_blank" rel="noopener">AdGlide →</a></div></div>
+        </article>
+      </div>
+    </section>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <p class="eyebrow">Journey</p>
+      <h2>Experience &amp; Education</h2>
+      <div class="timeline">
+        <article class="card t-item reveal"><div class="t-logo">DM</div><div><span class="t-date present">Founder · Current</span><h3>Founder &amp; Android Engineer — Data Matrix Lab</h3><p class="t-loc">📍 Google Play · datamatrixlab.com</p><ul><li>Shipped &amp; maintain Play apps with real users and steady iteration</li><li>Full loop: spec → build → release → analytics → iteration with real users</li></ul><div class="tag-cloud"><span>Android</span><span>Play Console</span><span>Product</span></div></div></article>
+        <article class="card t-item reveal"><div class="t-logo">SI</div><div><span class="t-date present">01/08/2022 — Present</span><h3>Software Engineer — Sikder International IT Hub</h3><p class="t-loc">📍 Kolkata, India</p><ul><li>System architecture: 20+ Android apps with MVVM + Repository patterns</li><li>Performance: engineered RESTful APIs, −25% response time, critical-bug stability fixes</li><li>Data systems: Room offline-first persistence synced with REST APIs</li><li>Engagement: Firebase Cloud Messaging push, +30% user engagement</li><li>UI/UX: Figma prototypes → pixel-perfect responsive interfaces; Agile Scrum</li></ul><div class="tag-cloud"><span>Java</span><span>Kotlin</span><span>MVVM</span><span>Room</span><span>Firebase</span><span>Figma</span></div></div></article>
+        <article class="card t-item reveal"><div class="t-logo">CM</div><div><span class="t-date">01/11/2021 — 31/07/2022 · Khulna, Bangladesh</span><h3>Junior Software Engineer — Codemen</h3><p class="t-loc">📍 Khulna, Bangladesh</p><ul><li>Full-stack responsive web apps: HTML5, CSS3, JavaScript, Redux, PHP</li><li>Quality: 50+ unit tests; reusable front-end &amp; server-side components</li></ul><div class="tag-cloud"><span>HTML5</span><span>JavaScript</span><span>Redux</span><span>PHP</span></div></div></article>
+        <article class="card t-item reveal" id="education"><div class="t-logo">NW</div><div><span class="t-date">19/04/2016 — 16/11/2020 · GPA 3.29/4.00</span><h3>Bachelor of Engineering in CSE — North Western University, Khulna</h3><ul><li>Key coursework: Software Engineering, Data Structures, OOP, Artificial Intelligence</li></ul><div class="tag-cloud"><span>CSE</span><span>AI</span><span>Systems</span></div></div></article>
+        <article class="card t-item reveal"><div class="t-logo">KP</div><div><span class="t-date">2012 — 2014</span><h3>HSC (Science) — Khulna Public College</h3><ul><li>GPA 4.70 out of 5.00</li></ul><div class="tag-cloud"><span>Science</span></div></div></article>
+        <article class="card t-item reveal"><div class="t-logo">CH</div><div><span class="t-date">2010 — 2012</span><h3>SSC (Science) — Chaderhat Secondary School, Bagerhat</h3><ul><li>GPA 4.88 out of 5.00</li></ul><div class="tag-cloud"><span>Science</span></div></div></article>
+      </div>
+    </section>
 
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <p class="eyebrow">At a Glance</p>
+      <h2>Skills &amp; Focus</h2>
+      <div class="focus-grid">
+        <div class="card focus-box reveal"><h3>💻 Languages &amp; Architecture</h3>
+          <p class="skill-sub">Languages</p><div class="tag-cloud"><span>Java</span><span>Kotlin</span><span>PHP (Laravel)</span><span>JavaScript (ES6+)</span><span>Python</span><span>C++</span><span>SQL</span></div>
+          <p class="skill-sub">Architecture</p><div class="tag-cloud"><span>MVVM</span><span>MVP</span><span>Repository</span></div>
+          <p class="skill-sub">Human</p><div class="tag-cloud"><span>Bangla (native)</span><span>English</span></div>
+        </div>
+        <div class="card focus-box reveal"><h3>📱 Mobile &amp; Web Platforms</h3>
+          <p class="skill-sub">Mobile</p><div class="tag-cloud"><span>Android Studio</span><span>Room</span><span>Firebase</span><span>App Open/Native Ads</span></div>
+          <p class="skill-sub">Web &amp; APIs</p><div class="tag-cloud"><span>HTML5</span><span>CSS3</span><span>RESTful APIs</span><span>JSON</span></div>
+        </div>
+        <div class="card focus-box reveal"><h3>🛠 Tools &amp; Delivery</h3>
+          <p class="skill-sub">Tools</p><div class="tag-cloud"><span>Git &amp; GitHub</span><span>Postman</span><span>Figma</span><span>Play Console</span><span>Redux</span></div>
+          <p class="skill-sub">Delivery</p><div class="tag-cloud"><span>Agile Scrum</span><span>Peer Reviews</span><span>50+ Unit Tests</span><span>Analytics-Driven</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section container">
+      <div class="card cta reveal">
+        <p class="eyebrow" style="justify-content:center">Collaboration</p>
+        <h2>Have an app idea? Let's build it right.</h2>
+        <p class="muted-text">From first sketch to Play Store release — clean architecture, offline-first builds and store-ready polish.</p>
+        <div class="tag-cloud green" style="justify-content:center">
+          <span>Android Apps</span><span>Full-Stack Web</span><span>Play Release &amp; Growth</span>
+        </div>
+        <div class="cta-btns">
+          <a class="btn btn-accent" href="mailto:partharoypc@gmail.com">Email Me →</a>
+          <a class="btn btn-ghost" href="https://wa.me/8801760805545" target="_blank" rel="noopener">WhatsApp Chat</a>
+        </div>
+        <p class="muted-text small" style="margin:14px 0 0">Based in Khulna, working worldwide · replies within 24 hours</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in touch</h2>
+      <p class="sub">Pick whatever channel suits you — every card below is one tap away.</p>
+      <div class="contact-grid">
+        <a class="card reveal" href="mailto:partharoypc@gmail.com"><span class="c-icon" aria-hidden="true">✉️</span><h3>Email</h3><p>partharoypc@gmail.com</p><p class="c-sub">Best for work inquiries</p></a>
+        <a class="card reveal" href="https://wa.me/8801760805545" target="_blank" rel="noopener"><span class="c-icon" aria-hidden="true">💬</span><h3>Phone &amp; WhatsApp</h3><p>+880 1760-805545</p><p class="c-sub">Fastest — call or chat</p></a>
+        <div class="card reveal"><span class="c-icon" aria-hidden="true">🤝</span><h3>Socials</h3><p><a href="https://www.linkedin.com/in/partharoypc/" target="_blank" rel="me noopener">LinkedIn</a> · <a href="https://github.com/partharoypc" target="_blank" rel="me noopener">GitHub</a> · <a href="http://datamatrixlab.com/" target="_blank" rel="me noopener">Website</a></p><p class="c-sub">Connect professionally</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Partha Roy · Data Matrix Lab · Khulna, Bangladesh.</p>
+      <div class="foot-links"><a href="#about">About</a><a href="#apps">Apps</a><a href="#research">Projects</a><a href="./apps.json">Apps JSON</a><a href="#top">↑ Top</a></div>
+    </div>
+  </footer>
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
