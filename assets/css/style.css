@@ -95,6 +95,7 @@ h3{font-size:1.05rem}
   box-shadow:var(--shadow-s);transition:border-color .2s,transform .2s,box-shadow .2s}
 .card:hover{border-color:#cfe6d5}
 .muted-text{color:var(--muted)}
+.muted-text.small{font-size:.9rem}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
 .tag-cloud{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
 .tag-cloud span{padding:6px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--border);font-size:.8rem;color:#2f3a30;font-weight:550}
@@ -212,6 +213,7 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
   .grid3,.focus-grid{grid-template-columns:1fr 1fr}
   .contact-grid{grid-template-columns:1fr 1fr}
   .work{grid-template-columns:1fr}
+  .work h3{padding-right:32px}
   .work-media{aspect-ratio:16/8}
 }
 @media (max-width:760px){

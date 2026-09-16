@@ -26,4 +26,4 @@ npx serve .
 ## Customize
 - Colors: `assets/css/style.css` → `:root`
 - Typing: `assets/js/main.js` → `words[]`
-- Apps: `index.html` → `#projGrid` (filters: all/ai/edu/util/net)
+- Apps: `index.html` → `#projGrid` (filters: all/ai/edu/util/net/web)
