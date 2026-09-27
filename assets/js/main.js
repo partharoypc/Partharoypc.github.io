@@ -23,11 +23,14 @@
   if (backTop) backTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
 
   // Mobile menu
-  const closeMenu = () => {
+  const closeMenu = (restoreFocus) => {
     if (!nav || !menuBtn) return;
+    const wasOpen = nav.classList.contains("open");
     nav.classList.remove("open");
     menuBtn.classList.remove("open");
     menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.setAttribute("aria-label", "Open menu");
+    if (restoreFocus && wasOpen) menuBtn.focus();
   };
   if (menuBtn && nav) {
     menuBtn.addEventListener("click", () => {
@@ -35,14 +38,18 @@
       menuBtn.classList.toggle("open", open);
       menuBtn.setAttribute("aria-expanded", String(open));
       menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      if (open) {
+        const first = nav.querySelector("a");
+        if (first) first.focus();
+      }
     });
-    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
+    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => closeMenu()));
     document.addEventListener("click", (e) => {
       if (!nav.classList.contains("open")) return;
       if (nav.contains(e.target) || menuBtn.contains(e.target)) return;
       closeMenu();
     });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(true); });
   }
 
   // Typing

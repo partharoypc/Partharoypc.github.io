@@ -31,20 +31,24 @@
   <link rel="icon" type="image/png" href="./assets/img/icon.png" />
   <link rel="apple-touch-icon" href="./assets/img/icon.png" />
   <link rel="manifest" href="./site.webmanifest" />
+  <link rel="preload" as="image" href="assets/img/icon.png" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
   <noscript><style>.reveal{opacity:1!important;transform:none!important}.menu-btn{display:none!important}</style></noscript>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Partha Roy","alternateName":"partharoypc","jobTitle":"Software Engineer, Founder, Data Matrix Lab","image":"https://partharoypc.github.io/assets/img/icon.png","telephone":"+8801760805545","affiliation":[{"@type":"Organization","name":"Data Matrix Lab"},{"@type":"Organization","name":"Sikder International IT Hub"}],"alumniOf":{"@type":"CollegeOrUniversity","name":"North Western University, Khulna"},"address":{"@type":"PostalAddress","addressLocality":"Khulna","addressCountry":"BD"},"email":"partharoypc@gmail.com","knowsLanguage":["bn","en"],"url":"https://partharoypc.github.io/","sameAs":["https://github.com/partharoypc","https://www.linkedin.com/in/partharoypc/","https://twitter.com/Partharoypc","https://play.google.com/store/apps/dev?id=8108071590254123611","http://datamatrixlab.com/"]}
+  {"@context":"https://schema.org","@type":"Person","name":"Partha Roy","alternateName":"partharoypc","jobTitle":"Software Engineer, Founder, Data Matrix Lab","description":"Partha Roy (partharoypc) is an Android app developer, full-stack web developer and founder of Data Matrix Lab, based in Khulna, Bangladesh.","image":"https://partharoypc.github.io/assets/img/icon.png","telephone":"+8801760805545","nationality":{"@type":"Country","name":"Bangladesh"},"affiliation":[{"@type":"Organization","name":"Data Matrix Lab"},{"@type":"Organization","name":"Sikder International IT Hub"}],"alumniOf":{"@type":"CollegeOrUniversity","name":"North Western University, Khulna"},"knowsAbout":["Android development","Kotlin","Java","MVVM","Full-stack web development","Machine learning"],"address":{"@type":"PostalAddress","addressLocality":"Khulna","addressCountry":"BD"},"email":"partharoypc@gmail.com","knowsLanguage":["bn","en"],"url":"https://partharoypc.github.io/","sameAs":["https://github.com/partharoypc","https://www.linkedin.com/in/partharoypc/","https://twitter.com/Partharoypc","https://play.google.com/store/apps/dev?id=8108071590254123611","http://datamatrixlab.com/"]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Partha Roy — Portfolio","alternateName":"partharoypc","url":"https://partharoypc.github.io/","inLanguage":"en","author":{"@type":"Person","name":"Partha Roy","url":"https://partharoypc.github.io/"}}
   </script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"ItemList","name":"Selected apps by Partha Roy","itemListElement":[{"@type":"ListItem","position":1,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.savebox","name":"SaveBox: Video & Status Saver"},{"@type":"ListItem","position":2,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.promptera.ai.photo","name":"Promptera: AI Photo Prompts"},{"@type":"ListItem","position":3,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.fitbyte","name":"FitByte: AI Food Scanner"},{"@type":"ListItem","position":4,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.networkanalyzer","name":"Network Analyzer: WiFi Scanner"},{"@type":"ListItem","position":5,"url":"https://play.google.com/store/apps/details?id=com.datamatrixlab.boichai.books","name":"Boichai: Bangla Books"},{"@type":"ListItem","position":6,"url":"https://play.google.com/store/apps/details?id=com.sikderithub.bookbharat","name":"Book Bharat - Online Bookstore","sameAs":"https://bookbharat.com/"},{"@type":"ListItem","position":7,"url":"https://play.google.com/store/apps/details?id=com.sikderithub.brightacademy","name":"BrightAcademy Exam Preparation"}]}
   </script>
 </head>
 <body>
-  <a class="skip" href="#about">Skip to content</a>
+  <a class="skip" href="#main">Skip to content</a>
   <div class="progress" id="progress" aria-hidden="true"></div>
 
   <header class="site-header" id="top">
@@ -68,7 +72,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
     <!-- HERO -->
     <section class="hero container">
       <img class="hero-avatar" src="assets/img/icon.png" alt="Portrait of Partha Roy" width="264" height="264" fetchpriority="high" />
