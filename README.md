@@ -1,10 +1,10 @@
-# Partha Roy — Android Engineer | Published Apps
+# Partha Roy — Software Engineer | Android & Full-Stack Web
 
 Live: https://partharoypc.github.io/
 Play portfolio: https://play.google.com/store/apps/dev?id=8108071590254123611 (Data Matrix Lab)
 
-Android Engineer, Data Matrix Lab — Play Store apps with real users.
-Focus: Play Store apps, on-device AI, Bangla products, network tools, data work.
+Software Engineer, Data Matrix Lab — Play Store apps with real users.
+Focus: Android (Java/Kotlin/MVVM), full-stack web (PHP/Laravel, JS), on-device AI, Bangla products, network tools, data work.
 
 ## What's inside
 - `index.html` — About → Selected Apps (curated, filterable) → Technical Projects → Experience & Education → Skills → Contact
