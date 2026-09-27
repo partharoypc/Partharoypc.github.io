@@ -1,0 +1,8 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+node_modules/
+.commandcode/

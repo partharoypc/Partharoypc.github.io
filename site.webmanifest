@@ -1,1 +1,18 @@
-{"name":"Partha Roy — Portfolio","short_name":"Partha Roy","start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#ffffff","icons":[{"src":"assets/img/icon.png","sizes":"460x460","type":"image/png"}]}
+{
+  "id": "/",
+  "name": "Partha Roy — Portfolio",
+  "short_name": "Partha Roy",
+  "description": "Partha Roy — Android Engineer and full-stack web developer, Data Matrix Lab. Play Store apps, on-device AI, Bangla products, network tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["portfolio", "developer", "productivity"],
+  "icons": [
+    { "src": "/assets/img/icon.png", "sizes": "460x460", "type": "image/png", "purpose": "any" }
+  ]
+}

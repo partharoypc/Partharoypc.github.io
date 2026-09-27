@@ -67,7 +67,12 @@
   if ("IntersectionObserver" in window && secs.length) {
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((en) => {
-        if (en.isIntersecting) links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id));
+        if (en.isIntersecting) links.forEach((a) => {
+          const on = a.getAttribute("href") === "#" + en.target.id;
+          a.classList.toggle("active", on);
+          if (on) a.setAttribute("aria-current", "true");
+          else a.removeAttribute("aria-current");
+        });
       });
     }, { rootMargin: "-40% 0px -55% 0px" });
     secs.forEach((s) => obs.observe(s));
@@ -104,7 +109,7 @@
       c.classList.toggle("hide", !show);
       if (show) { n++; requestAnimationFrame(() => c.classList.add("in")); }
     });
-    const head = document.querySelector("#apps h2");
+    const head = document.getElementById("appsHead");
     if (head) head.textContent = f === "all" ? "Selected Apps" : `Selected Apps — ${n}`;
   }));
 })();
